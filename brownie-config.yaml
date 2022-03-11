@@ -1,0 +1,32 @@
+dotenv: .env
+
+networks:
+  default: ftm-test 
+  ftm-main: 
+    spooky_swap: '0xF491e7B69E4244ad4002BC14e878a34207E38c29'
+    solid_swap: '0xa38cd27185a464914D3046f0AB9d43356B34829D'
+    tomb: '0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7'
+    ftm: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83'
+    spooky_pairs: '0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3'
+    tomb_pair: '0x2A651563C9d3Af67aE0388a5c8F89b867038089e'
+  
+    
+  ftm-test:
+    spooky_swap: '0xa6ad18c2ac47803e193f75c3677b14bf19b94883'
+    spooky_pairs: '0xEE4bC42157cf65291Ba2FE839AE127e3Cc76f741'
+    fake_boo: '0x14f0C98e6763a5E13be5CE014d36c2b69cD94a1e'
+    spook: '0x07a2925AE42917121E0f7217Bc58247C9A69C3a8'
+    ftm: '0xf1277d1Ed8AD466beddF92ef448A132661956621'
+    weth: '0x00352e7A32dbC8CC505f04449C7B543a31D93a91'
+    tshare: '0xab42019f34bc2481c4ffc450dbc4a5084d29549d'
+    tomb: '0x824624d35CF0f2D4aBF843C48e17d4F62eA40805'
+    tomb_pair: '0x9bAEcC185d071dF597f6a0917A8cDF70Da0b7636'
+    solidly_swap: '0xD1D173c5d1de3175B32d3dDCB265BD00Ea9fEDf5'
+    neptune: '0x9642ff05Ee951971e8956755adce3dDCbc3244f2'
+    neptune_pair: '0x2382e99A2e45D59D4fc2a2A1c4b574574640c901'
+
+
+wallets:
+  ftm-test: ${TEST_PRIVATE_KEY}
+  ftm-main: ${PRIVATE_KEY}
+
